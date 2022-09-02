@@ -1,11 +1,4 @@
 # Databricks notebook source
-!pip install torch
-!pip install mlflow
-!pip install transformers
-!pip install cryptography
-
-# COMMAND ----------
-
 import torch
 import mlflow.pytorch
 from pyspark.sql.functions import col, udf, lit, to_utc_timestamp, split, collect_list
